@@ -1,0 +1,33 @@
+{
+  "id": "/maktabat-aljeel-admin/staff.html",
+  "name": "إدارة أقسام مكتبة الجبل",
+  "short_name": "أقسام الجبل",
+  "description": "إدارة منتجات قسمك في مكتبة الجبل",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./staff.html#products",
+  "scope": "./staff.html",
+  "display": "standalone",
+  "theme_color": "#0c4fa5",
+  "background_color": "#f5f8ff",
+  "icons": [
+    {
+      "src": "./company-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./company-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./company-icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
