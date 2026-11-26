@@ -34,3 +34,33 @@
   background: #fff2c8;
   color: #674600;
 }
+.products-toolbar { flex-wrap: wrap; justify-content: flex-start; }
+.products-toolbar .search-box { flex: 1 1 180px; min-width: 0; }
+.products-toolbar-actions {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+  max-width: 100%;
+  margin-inline-start: auto;
+}
+.products-toolbar-actions > .primary {
+  flex: 0 0 auto;
+  width: auto;
+  min-height: 43px;
+  padding-inline: 12px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.products-toolbar-actions #products-supplier-filter {
+  min-width: 0;
+  max-width: min(180px, 100%);
+  min-height: 43px;
+  border-color: #b9cdea;
+  background: #f1f6ff;
+  color: #0c4fa5;
+  font-weight: 700;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .products-toolbar-actions { flex-basis: 100%; margin-inline-start: 0; }
+}
